@@ -1,0 +1,25 @@
+<svg width="90" height="90" viewBox="0 0 90 90" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outer Light Blue Ring -->
+  <circle cx="45" cy="45" r="35" fill="#4F8EF7"></circle>
+
+  <!-- Inner White Circle -->
+  <circle cx="45" cy="45" r="28" fill="white"></circle>
+
+  <!-- Bank Icon -->
+  <g fill="#1E3A8A">
+
+    <!-- Roof -->
+    <polygon points="45,28 28,36 62,36"></polygon>
+
+    <!-- Pillars -->
+    <rect x="32" y="38" width="4" height="14"></rect>
+    <rect x="42" y="38" width="4" height="14"></rect>
+    <rect x="52" y="38" width="4" height="14"></rect>
+
+    <!-- Base -->
+    <rect x="30" y="54" width="30" height="4"></rect>
+
+  </g>
+
+</svg>

@@ -1,0 +1,14 @@
+<svg width="64" height="64" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blue Circle -->
+  <circle cx="24" cy="24" r="24" fill="#2D7BE5"></circle>
+
+  <!-- Main Screen Shape -->
+  <rect x="14" y="14" width="16" height="16" rx="2" stroke="white" stroke-width="2" fill="none"></rect>
+
+  <!-- Inner Content Lines -->
+  <rect x="18" y="18" width="8" height="2" rx="1" fill="white"></rect>
+  <rect x="18" y="22" width="6" height="2" rx="1" fill="white"></rect>
+
+  <!-- Small Overlapping Square -->
+  <rect x="26" y="26" width="8" height="8" rx="1.5" stroke="white" stroke-width="2" fill="none"></rect>
+</svg>

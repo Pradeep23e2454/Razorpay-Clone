@@ -1,0 +1,22 @@
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Blue Circle -->
+  <circle cx="30" cy="30" r="28" fill="#2B6FFF"></circle>
+
+  <!-- Circular Arrows -->
+  <g fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    
+    <!-- Left Curve -->
+    <path d="M20 30a10 10 0 0 1 10-10"></path>
+    <polyline points="27,17 30,20 27,23"></polyline>
+    
+    <!-- Right Curve -->
+    <path d="M40 30a10 10 0 0 1-10 10"></path>
+    <polyline points="33,43 30,40 33,37"></polyline>
+    
+  </g>
+
+  <!-- Play Triangle -->
+  <polygon points="27,24 27,36 36,30" fill="white"></polygon>
+
+</svg>

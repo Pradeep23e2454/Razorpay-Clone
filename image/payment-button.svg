@@ -1,0 +1,14 @@
+<svg width="64" height="64" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blue Circle -->
+  <circle cx="24" cy="24" r="24" fill="#2D7BE5"></circle>
+
+  <!-- Chat Bubble -->
+  <path d="M14 20
+           C14 16 18 14 24 14
+           C30 14 34 16 34 20
+           C34 24 30 26 24 26
+           L20 26
+           L17 30
+           L18 26
+           C16 25 14 23 14 20Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+</svg>

@@ -1,0 +1,21 @@
+<svg width="64" height="64" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  
+  <!-- Blue Circle -->
+  <circle cx="24" cy="24" r="24" fill="#2F80ED"></circle>
+
+  <!-- Shield Outline -->
+  <path d="
+    M24 13
+    C20 15 16 16.5 16 20
+    V24
+    C16 30 20 33 24 35
+    C28 33 32 30 32 24
+    V20
+    C32 16.5 28 15 24 13
+    Z
+  " fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- Check Mark -->
+  <path d="M19 24 L23 28 L29 20" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+
+</svg>

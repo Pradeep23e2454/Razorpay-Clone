@@ -1,0 +1,17 @@
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Blue Circle -->
+  <circle cx="30" cy="30" r="28" fill="#2B6FFF"></circle>
+
+  <!-- Arrow -->
+  <g stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    
+    <!-- Diagonal Line -->
+    <line x1="22" y1="38" x2="38" y2="22"></line>
+    
+    <!-- Arrow Head -->
+    <polyline points="28,22 38,22 38,32"></polyline>
+
+  </g>
+
+</svg>

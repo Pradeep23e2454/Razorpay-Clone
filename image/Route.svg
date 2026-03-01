@@ -1,0 +1,16 @@
+<svg width="64" height="64" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  
+  <!-- Blue Circle -->
+  <circle cx="24" cy="24" r="24" fill="#2F80ED"></circle>
+
+  <!-- Route / Branch Icon -->
+  <path d="
+    M24 14 
+    V22
+    M24 22
+    C24 26 20 28 18 30
+    M24 22
+    C24 26 28 28 30 30
+  " stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+
+</svg>

@@ -1,0 +1,32 @@
+<svg width="140" height="160" viewBox="0 0 140 160" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Blue Circle -->
+  <circle cx="70" cy="60" r="45" fill="#2F6FE4"></circle>
+
+  <!-- White Shield -->
+  <path d="
+    M70 30
+    L95 40
+    V60
+    C95 80 80 95 70 100
+    C60 95 45 80 45 60
+    V40
+    Z" fill="white"></path>
+
+  <!-- Small Lock -->
+  <g transform="translate(88 75)">
+    
+    <!-- Lock Body -->
+    <rect x="0" y="8" width="22" height="18" rx="4" fill="#1E4FCB"></rect>
+
+    <!-- Lock Arc -->
+    <path d="M5 8 V4 A6 6 0 0 1 17 4 V8" stroke="#1E4FCB" stroke-width="3" fill="none" stroke-linecap="round"></path>
+
+  </g>
+
+  <!-- Text -->
+  <text x="70" y="145" text-anchor="middle" font-size="20" font-weight="600" fill="white" font-family="Arial, sans-serif">
+    Secure
+  </text>
+
+</svg>

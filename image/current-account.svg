@@ -1,0 +1,22 @@
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Blue Circle -->
+  <circle cx="30" cy="30" r="28" fill="#2B6FFF"></circle>
+
+  <!-- Bank Building -->
+  <g fill="white">
+    
+    <!-- Roof -->
+    <polygon points="30,16 14,24 46,24"></polygon>
+    
+    <!-- Pillars -->
+    <rect x="18" y="26" width="4" height="14"></rect>
+    <rect x="26" y="26" width="4" height="14"></rect>
+    <rect x="34" y="26" width="4" height="14"></rect>
+    
+    <!-- Base -->
+    <rect x="16" y="40" width="28" height="4"></rect>
+    
+  </g>
+
+</svg>

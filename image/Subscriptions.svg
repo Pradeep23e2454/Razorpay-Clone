@@ -1,0 +1,16 @@
+<svg width="64" height="64" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  
+  <!-- Blue Circle -->
+  <circle cx="24" cy="24" r="24" fill="#2F80ED"></circle>
+
+  <!-- Circular Arrow Curve -->
+  <path d="M16 22
+           A8 8 0 0 1 32 22" stroke="white" stroke-width="3" stroke-linecap="round" fill="none"></path>
+
+  <!-- Arrow Head -->
+  <path d="M30 18 L33 22 L29 22" fill="white"></path>
+
+  <!-- Rupee Symbol -->
+  <text x="24" y="30" text-anchor="middle" font-size="14" font-weight="bold" fill="white" font-family="Arial, sans-serif">₹</text>
+
+</svg>

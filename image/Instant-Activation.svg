@@ -1,0 +1,23 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Rotate whole rocket -->
+  <g transform="translate(40,40) rotate(35) translate(-20,-30)">
+
+    <!-- Rocket Body -->
+    <ellipse cx="20" cy="25" rx="10" ry="25" fill="#E6EEF8"></ellipse>
+
+    <!-- Window -->
+    <circle cx="20" cy="22" r="4" fill="#2B6FFF"></circle>
+
+    <!-- Left Fin -->
+    <polygon points="10,40 0,55 18,45" fill="#C9DCF9"></polygon>
+
+    <!-- Right Fin -->
+    <polygon points="30,40 40,55 22,45" fill="#C9DCF9"></polygon>
+
+    <!-- Flame -->
+    <polygon points="20,50 14,65 26,65" fill="#FFB703"></polygon>
+
+  </g>
+
+</svg>

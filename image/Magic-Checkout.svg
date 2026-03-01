@@ -1,0 +1,21 @@
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Blue Circle -->
+  <circle cx="30" cy="30" r="28" fill="#2B6FFF"></circle>
+
+  <!-- Cart Icon -->
+  <g fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    
+    <!-- Cart Body -->
+    <path d="M22 26h16l-2 8H24z"></path>
+    
+    <!-- Handle -->
+    <path d="M20 24h4l2 10"></path>
+    
+    <!-- Wheels -->
+    <circle cx="26" cy="40" r="2" fill="white"></circle>
+    <circle cx="34" cy="40" r="2" fill="white"></circle>
+    
+  </g>
+
+</svg>

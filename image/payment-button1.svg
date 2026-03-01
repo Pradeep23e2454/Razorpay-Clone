@@ -1,0 +1,23 @@
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Blue Circle -->
+  <circle cx="30" cy="30" r="28" fill="#2B6FFF"></circle>
+
+  <!-- Chain Icon -->
+  <g fill="none" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    
+    <!-- Left Link -->
+    <path d="M24 34
+             a6 6 0 0 1 0-8
+             l4-4
+             a6 6 0 0 1 8 0"></path>
+    
+    <!-- Right Link -->
+    <path d="M36 26
+             a6 6 0 0 1 0 8
+             l-4 4
+             a6 6 0 0 1 -8 0"></path>
+
+  </g>
+
+</svg>

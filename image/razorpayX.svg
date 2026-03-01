@@ -1,0 +1,17 @@
+<svg width="420" height="100" viewBox="0 0 420 100" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Icon -->
+  <g transform="translate(0,10)">
+    <!-- Grey Base Shape -->
+    <polygon points="0,60 60,20 45,75 0,75" fill="#E5E7EB"></polygon>
+
+    <!-- Blue Arrow Shape -->
+    <polygon points="40,15 90,0 60,90 25,90" fill="#2B6FFF"></polygon>
+  </g>
+
+  <!-- Razorpay Text -->
+  <text x="110" y="70" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="700" fill="#E5E7EB">
+    Razorpay
+  </text>
+
+</svg>

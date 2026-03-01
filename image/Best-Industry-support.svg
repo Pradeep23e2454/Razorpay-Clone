@@ -1,0 +1,17 @@
+<svg width="90" height="90" viewBox="0 0 90 90" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Blue Outer Circle -->
+  <circle cx="45" cy="45" r="35" fill="#2F6FE4"></circle>
+
+  <!-- White Inner Circle -->
+  <circle cx="45" cy="45" r="26" fill="white"></circle>
+
+  <!-- Bottom Soft Shape -->
+  <ellipse cx="45" cy="60" rx="18" ry="10" fill="#1E4FCB"></ellipse>
+
+  <!-- 24 Text -->
+  <text x="45" y="50" text-anchor="middle" font-size="22" font-weight="bold" fill="#1E4FCB" font-family="Arial, sans-serif">
+    24
+  </text>
+
+</svg>
