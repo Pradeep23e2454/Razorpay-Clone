@@ -44,78 +44,50 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     
      <!-- Navbar -->
      <nav class="bg-deepBlue">
-      <div class="relative w-[1080px] mx-auto flex items-center justify-between">
+  <div class="relative w-11/12 max-w-[1080px] mx-auto flex items-center justify-between">
 
-           <!-- logo -->
+    <!-- Logo -->
+    <a href="/" class="cursor-pointer py-7">
+      <img src="image/logo2.png" width="125" height="30"/>
+    </a>
 
-           <a href="/" class="cursor-pointer py-7 pr-7">
-            <img 
-            src ="image/logo2.png"
-            width="125px"
-            height="30px"/>
-           </a>
-           <ul class="flex space-x-6">
-            <li class="text-white font-mullish py-7  hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
-              <a href="#">Payments</a>
+    <!-- Nav Links -->
+    <ul class="hidden lg:flex space-x-6">
+      <li class="text-white py-7 hover:text-lightBlue cursor-pointer">Payments</li>
+      <li class="text-white py-7 hover:text-lightBlue cursor-pointer">Banking</li>
+      <li class="text-white py-7 hover:text-lightBlue cursor-pointer">Corporate Card</li>
+      <li class="text-white py-7 hover:text-lightBlue cursor-pointer">Payroll</li>
+      <li class="text-white py-7 hover:text-lightBlue cursor-pointer">Resources</li>
+      <li class="text-white py-7 hover:text-lightBlue cursor-pointer">Support</li>
+      <li class="text-white py-7 hover:text-lightBlue cursor-pointer">Pricing</li>
+    </ul>
 
-               <div class="absolute bottom-0 left-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
-            </li>
+    <!-- Right Section -->
+    <div class="flex items-center space-x-4">
 
+      <!-- Flag -->
+      <img src="image/flag1.png"
+           class="w-7 h-5 object-contain hidden lg:block"/>
 
-             <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
-              <a href="#">Banking</a>
+      <!-- Login -->
+      <button class="py-2 px-4 text-white border border-lightBlue rounded text-sm font-bold">
+        Log in
+      </button>
 
-              <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
-            </li>
+      <!-- Sign Up -->
+      <button class="hidden lg:block py-2 px-4 bg-white text-lightBlue300 rounded text-sm font-bold">
+        Sign Up ➜
+      </button>
 
+      <!-- Mobile Menu Icon -->
+      <button class="lg:hidden text-white text-2xl">
+        ☰
+      </button>
 
-             <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
-              <a href="#">Corporate Card</a>
+    </div>
 
-             
-            </li>
-
-
-             <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
-              <a href="#">Payroll</a>
-
-              
-            </li>
-
-             <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
-              <a href="#">Resources</a>
-
-              <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
-            </li>
-
-
-             <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
-              <a href="#">Support</a>
-
-              <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
-            </li>
-
-
-             <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
-              <a href="#">Pricing</a>
-
-              <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
-            </li>
-           </ul>
-           <div class="flex space-x-6 items-center">
-
-            <img 
-            src="image/flag1.png" 
-           class="w-7 h-5 object-contain hidden lg:block"
-             />
-            <button class="py-3 px-5 font-mullish text-white border-lightBlue border rounded-sm text-sm font-bold">Log in</button>
-
-            <button class="py-3 px-4 font-mullish rounded-sm text-sm font-bold bg-white text-lightBlue300 border
-            transition-all duration-200 hover:text-lightBlue500 hidden lg:flex ">Sign Up ➜</button>
-
-           </div>
-      </div>
-     </nav>
+  </div>
+       </nav>
 
      <!-- Hero Section -->
 
@@ -146,10 +118,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 
      <section class="relative mt-[190px] overflow-hidden">
       <img src="image/Dot1.png" 
-     class="absolute top-0 left-0 w-[233px] h-auto  " />
+     class="absolute top-0 left-0 w-[233px] h-auto hidden lg:block  " />
 
     <img src="image/Dot1.png" 
-     class=" absolute top-[2rem] right-0 inline-block w-[233px] h-auto " />
+     class=" absolute top-[2rem] right-0 inline-block w-[233px] h-auto hidden lg:block " />
 
       <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
         <!-- heading -->
@@ -821,7 +793,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
    <section class="relative">
     <div class="w-11/12 max-w-[1300px] mx-auto  relative py-20">
         <img src="image/Dot1.png" alt="" 
-        class="absolute w-[200px] top-[8rem] left-[2rem] -z-10">
+        class="absolute w-[200px] top-[8rem] left-[2rem] -z-10 hidden lg:block">
         <h2 class="font-mullish font-bold text-2xl  text-deepBlueHead text-center">An Experience  <br>People Love to Talk About</h2>
         <div class="w-6 h-1 mx-auto bg-greenLight my-4"></div>
     
@@ -871,7 +843,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     </h3>
 
     <p class="font-mullish font-medium xl:order-1 ">
-      CEO, XYZ Engineering Company
+      Founder, Isadora Life
+
+
     </p>
 
     <img src="image/fakecompany.png" width="80" class="xl:order-1">
@@ -964,8 +938,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     <!-- Column 2 -->
     <div class="space-y-6">
       <div>
-        <h3 class="font-bold text-lg text-deepBlueHead">BANKING PLUS</h3>
-        <ul class="text-lightBlue500 space-y-2 text-sm">
+        <h3 class="font-mullish font-bold text-lg text-deepBlueHead">BANKING PLUS</h3>
+        <ul class="font-mullish text-lightBlue500 space-y-2 text-sm">
           <li>RazorpayX</li>
           <li>Current Accounts</li>
           <li>Payouts</li>
@@ -976,8 +950,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
       </div>
 
       <div>
-        <h3 class="font-bold text-lg text-deepBlueHead">LENDING</h3>
-        <ul class="text-lightBlue500 space-y-2 text-sm">
+        <h3 class="font-mullish font-bold text-lg text-deepBlueHead">LENDING</h3>
+        <ul class="font-mullish text-lightBlue500 space-y-2 text-sm">
           <li>Razorpay Capital</li>
           <li>Instant Settlements</li>
           <li>Working Capital Loans</li>
@@ -990,8 +964,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     <!-- Column 3 -->
     <div class="space-y-6">
       <div>
-        <h3 class="font-bold text-lg text-deepBlueHead">ACCEPT PAYMENTS</h3>
-        <ul class="text-lightBlue500 space-y-2 text-sm">
+        <h3 class=" font-mullish font-bold text-lg text-deepBlueHead">ACCEPT PAYMENTS</h3>
+        <ul class=" font-mullish text-lightBlue500 space-y-2 text-sm">
           <li>Payment Gateway</li>
           <li>Payment Pages</li>
           <li>Payment Links</li>
@@ -1002,8 +976,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
       </div>
 
       <div>
-        <h3 class="font-bold text-lg text-deepBlueHead">DEVELOPERS</h3>
-        <ul class="text-lightBlue500 space-y-2 text-sm">
+        <h3 class="font-mullish font-bold text-lg text-deepBlueHead">DEVELOPERS</h3>
+        <ul class="font-mullish text-lightBlue500 space-y-2 text-sm">
           <li>Docs</li>
           <li>Integrations</li>
           <li>API Reference</li>
@@ -1014,8 +988,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     <!-- Column 4 -->
     <div class="space-y-6">
       <div>
-        <h3 class="font-bold text-lg text-deepBlueHead">COMPANY</h3>
-        <ul class="text-lightBlue500 space-y-2 text-sm">
+        <h3 class=" font-mullish font-bold text-lg text-deepBlueHead">COMPANY</h3>
+        <ul class="font-mullish text-lightBlue500 space-y-2 text-sm">
           <li>About Us</li>
           <li>Careers <span class="bg-green-500 text-white text-xs px-2 rounded">We're hiring</span></li>
           <li>Terms of Use</li>
@@ -1028,7 +1002,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
       </div>
 
       <div>
-        <h3 class="font-bold text-lg text-deepBlueHead">FIND US ONLINE</h3>
+        <h3 class="font-mullish font-bold text-lg text-deepBlueHead">FIND US ONLINE</h3>
 
         <div class="flex flex-wrap gap-4 text-xl mt-3">
           <i class="fa-brands fa-facebook-f text-[#1877F2]"></i>
@@ -1043,7 +1017,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
   </div>
 
   <!-- Bottom Copyright -->
-  <div class="text-center text-sm text-gray-600 mt-12 border-t pt-6">
+  <div class=" font-mullish text-center text-sm text-gray-600 mt-12 border-t pt-6">
     © 2026, Pradeep Pandit - Razorpay HTML, Tailwind CSS
   </div>
 
